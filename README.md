@@ -23,12 +23,11 @@ Hilton Hotels application requires [XAMPP](https://www.apachefriends.org) server
 ### Set environment variables 
 ```sh
 $ Download XAMPP and start Apache and MySQL.
-Move or Copy the HiltonHotels folder to XAMPP/htdocs and 
-Upload Hotel.sql in php my admin at http://localhost/phpmyadmin/index.php address.
-Execute the database.
+Move or Copy the HiltonHotels folder to XAMPP/htdocs.
+Upload Hotel.sql in php my admin at http://localhost/phpmyadmin/index.php address and execute the database.
 Type in browser: 
-[http://localhost/HiltonHotels/Home_User.php] for user;
-[http://localhost/HiltonHotels/Status_Room_Booking.php] for admin.
+*[http://localhost/HiltonHotels/Home_User.php] for user;
+*[http://localhost/HiltonHotels/Status_Room_Booking.php] for admin.
 ```
 
 ### Clone the repositories
