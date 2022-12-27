@@ -1,0 +1,366 @@
+/*------------------------------------------
+	 	TOC:
+	   a. Tablets (>481px)
+	   b. Laptops(>769px) 
+	   c. Large Screens(>1024px) 
+-------------------------------------------*
+
+/*----------------------
+	a. Tablets (>481px)
+----------------------*/
+
+@media only screen and (min-width: 481px) {
+    .menu .icon {
+        display: none !important;
+    }
+    #navBar {
+        display: block;
+    }
+    .menu li {
+        display: inline-block;
+        margin-left: 0.5rem;
+        font-size: 1.8rem;
+    }
+    .menu a {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    .menu ul>li a:hover {
+        color: #0eebe6;
+        font-size: 2.2rem;
+    }
+    .menu {
+        display: flex;
+        margin-top: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #logo {
+        text-align: center;
+        color: white;
+        display: block;
+    }
+    #travelStyle {
+        margin: 2rem 45% 1rem 5%;
+        width: 90%;
+    }
+    #travelStyle h1,
+    .pageTitle h1 {
+        color: #0eebe6;
+        font-size: 1.7rem;
+    }
+    .pageTitle {
+        margin-top: 2rem;
+        margin-left: 5%;
+    }
+    #about {
+        margin: 5rem auto 0 auto;
+        width: 85%;
+    }
+    #services div {
+        margin: 1% 5%;
+        display: inline-block;
+        width: 39%;
+    }
+    .flex-item-max4,
+    .flex-item-max3 {
+        margin: 1.7rem 2.5%;
+        width: 45%;
+    }
+    .vacation-text p {
+        display: block;
+    }
+    .flex-item-max2 {
+        width: 70%;
+    }
+    .contact-buttons div {
+        display: inline-block;
+        width: 22%;
+    }
+    #subscribe form input {
+        display: inline-block;
+        width: 60%;
+        padding: 0.725rem;
+        border-radius: 2rem 0 0 2rem;
+        border-right: 0;
+    }
+    #subscribe form button {
+        border-radius: 0 3rem 3rem 0;
+        margin-top: 0;
+        position: relative;
+        left: -5px;
+        top: 1.5px;
+    }
+    .footer-nav .primary li a {
+        font-size: 1.4rem;
+    }
+    .footer-nav .secondary li a {
+        font-size: 1rem;
+    }
+    .footer-nav li {
+        margin: 0.5rem 0.3rem;
+    }
+    .social,
+    .footer-nav {
+        display: inline-block;
+        width: 48%;
+        vertical-align: top;
+    }
+    .footer-nav {
+        text-align: left;
+    }
+    footer h2 {
+        margin: 0;
+        padding-top: 1rem;
+    }
+    .copyright {
+        margin-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        font-size: 1.2rem;
+    }
+    #about img {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+
+
+/*----------------------
+	b. Laptops (>769px)
+----------------------*/
+
+@media only screen and (min-width: 769px) {
+    #navBar {
+        display: flex;
+    }
+    .menu {
+        display: inline-flex;
+    }
+    #logo {
+        display: inline-block;
+        margin-left: 2rem;
+    }
+    #travelStyle {
+        margin: 7rem 40% 1rem 10%;
+        width: 70%;
+    }
+    #about {
+        width: 90%;
+        display: flex;
+        align-items: stretch;
+    }
+    #about img {
+        background-position: center center;
+        display: inline-block;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        width: 25%;
+        flex: 1;
+        border: 0;
+        border-right: 1px solid gray;
+    }
+    #about-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 61%;
+        align-items: center;
+        text-align: center;
+        padding: 2%;
+    }
+    .centeredTitle h1 {
+        font-size: 3.5rem;
+        margin-top: 40vh;
+    }
+    #services div {
+        margin: 1%;
+        width: 25%;
+    }
+    .flex-wrapper {
+        margin: 0;
+    }
+    .flex-item-max4 {
+        margin: 0;
+        width: 25%;
+    }
+    .flex-item-max3 {
+        margin: 2% 3%;
+        width: 20%;
+    }
+    .vacations-wrapper {
+        width: 70%;
+    }
+    .text-image div {
+        display: inline-block;
+        padding-right: 1rem;
+        width: 50%;
+        vertical-align: top;
+    }
+    .text-image img {
+        display: inline-block;
+        padding-right: 1rem;
+        width: 45%;
+    }
+    .contact-section {
+        text-align: center;
+    }
+    #map,
+    .contact-form {
+        display: inline-block;
+        width: 40%;
+        text-align: left;
+    }
+    #subscribe p,
+    #subscribe form {
+        display: inline-block;
+        width: 48%;
+        font-size: 1.5rem;
+        margin: 1rem auto;
+    }
+    .social-list li {
+        display: inline-block;
+        margin: 0.4rem 1rem;
+    }
+    .footer-nav li {
+        margin: 0.7rem 0.8rem;
+    }
+    .copyright {
+        margin-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        font-size: 1.3rem;
+    }
+}
+
+
+/*----------------------
+	c. Large Screens (>1024px)
+----------------------*/
+
+@media only screen and (min-width: 1024px) {
+    #logo {
+        margin-left: 5%;
+        color: white;
+        font-size: 3.5rem;
+    }
+    .menu {
+        margin-right: 10%;
+    }
+    .menu a {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    .active a {
+        font-size: 2rem !important;
+    }
+    #travelStyle {
+        margin: 7rem 42% 1rem 8%;
+        width: 70%;
+    }
+    #travelStyle h1 {
+        font-size: 1.7rem;
+        font-weight: 500;
+        color: #0eebe6;
+    }
+    #about {
+        width: 85%;
+        border-radius: 1rem;
+        margin: 7rem auto 0 auto;
+    }
+    #about img {
+        width: 30%;
+        flex: 1;
+        border: 0;
+        object-fit: cover;
+        border-right: 1px solid gray;
+    }
+    #about-text {
+        width: 62%;
+        text-align: center;
+        padding: 4%;
+    }
+    .centeredTitle h1 {
+        font-size: 4rem;
+        margin-top: 25vh;
+    }
+    #services {
+        padding: 2%;
+    }
+    #services div {
+        margin: 3%;
+        width: 20%;
+    }
+    .vacations-wrapper {
+        display: inline-flex;
+        width: 55%;
+    }
+    .sidebar {
+        display: inline-block;
+        width: 20%;
+        margin: 1rem 2% 0 5%;
+        vertical-align: top;
+        background-color: rgba(20, 20, 20, 0.5);
+        color: white;
+        padding: 1.5%;
+        border-radius: 2rem;
+    }
+    .sidebar form {
+        width: 100%;
+        font-size: 1.1rem;
+    }
+    .sidebar input,
+    .sidebar select {
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0.3rem;
+        background-color: #606060;
+        width: 90%;
+        color: #f69124;
+        border-radius: 2rem;
+        border: 1.5px solid #f69124;
+        display: block;
+        margin-bottom: 1rem;
+    }
+    .sidebar input::placeholder {
+        color: white;
+        color: #f69124;
+    }
+    #flights-ser {
+        display: inline-flex !important;
+        flex-direction: column-reverse;
+    }
+    #flights-ser h3 {
+        order: 1;
+    }
+}
+
+@media only screen and (max-width: 930px) and (min-width: 700px) {
+    .flex-item-max4 {
+        margin: 0;
+        width: 40%;
+        padding-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1150px) and (min-width: 760px) {
+    .flex-item-max3 {
+        margin: 1.7rem 2.5%;
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 690px) and (min-width: 450px) {
+    .contact-buttons div {
+        display: inline-block;
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1310px) and (min-width: 765px) {
+    .text-image div {
+        width: 100%;
+    }
+    .text-image img {
+        width: 100%;
+    }
+}
