@@ -37,7 +37,7 @@ $ git clone https://github.com/catalyn98/HiltonHotels-application.git
 - Locate the *HiltonHotels* folder on your computer. Copy or move the *HiltonHotels* folder to the following directory: *wamp64/www*.
 
 **Import the *Hotel.sql* Database:**
-- Open your web browser and navigate to `http://localhost/phpmyadmin/index.php`.
+- Open your web browser and navigate to `http://localhost/phpmyadmin/index.php` (Username: *root*, Password: leave empty, Server choice: *MySQL*).
 - In phpMyAdmin, create a database connection named **hotel**, then click on the **Import** tab at the top of the page.
 - Click the **Choose File** button and browse to the location where you saved the *Hotel.sql* file.
 - Select the *Hotel.sql* file and click the **Open** button.
