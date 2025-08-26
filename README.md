@@ -18,7 +18,7 @@ Hilton Hotels uses a number of open source projects to work properly:
 * [MySQL](https://www.w3schools.com/mysql/) - is a widely used relational database management system (RDBMS).
 
 # Installation
-Hilton Hotels application requires a [WAMP](https://download.cnet.com/WampServer-64-Bit/3000-10248_4-75544590.html) server to run.
+Hilton Hotels application requires a [WAMP](https://wampserver.aviatechno.net) server to run.
 
 ### Clone the repositories
 ```sh
