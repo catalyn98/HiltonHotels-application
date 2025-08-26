@@ -38,7 +38,8 @@ $ git clone https://github.com/catalyn98/HiltonHotels-application.git
 
 **Import the *Hotel.sql* Database:**
 - Open your web browser and navigate to `http://localhost/phpmyadmin/index.php`.
-- In phpMyAdmin, click on the **Import** tab at the top of the page. Click the **Choose File** button and browse to the location where you saved the *Hotel.sql* file.
+- In phpMyAdmin, create a database connection named **hotel**, then click on the **Import** tab at the top of the page.
+- Click the **Choose File** button and browse to the location where you saved the *Hotel.sql* file.
 - Select the *Hotel.sql* file and click the **Open** button.
 - Back in phpMyAdmin, click the **Go** button to import the *Hotel.sql* file and execute the database.
 
@@ -46,6 +47,7 @@ $ git clone https://github.com/catalyn98/HiltonHotels-application.git
 - To access the HiltonHotels website, open your web browser and type one of the following URLs depending on whether you want to access the user or admin interface:
   - Type `http://localhost/HiltonHotels/Home_User.php` in your browser's address bar and press Enter - for user.
   - Type `http://localhost/HiltonHotels/Status_Room_Booking.php` in your browser's address bar and press Enter - for admin.
+  - Credentials (username & password): *admin_hotel@yahoo.com*/*12345*.
 
 # Web application screenshots 
 | <p align="center">**Home page**</p> | <p align="center">**About us page**</p> | <p align="center">**Contact us page**</p> |
