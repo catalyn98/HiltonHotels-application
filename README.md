@@ -47,7 +47,7 @@ $ git clone https://github.com/catalyn98/HiltonHotels-application.git
 - To access the HiltonHotels website, open your web browser and type one of the following URLs depending on whether you want to access the user or admin interface:
   - Type `http://localhost/HiltonHotels/Home_User.php` in your browser's address bar and press Enter - for user.
   - Type `http://localhost/HiltonHotels/Status_Room_Booking.php` in your browser's address bar and press Enter - for admin.
-  - Credentials (username & password): *admin_hotel@yahoo.com*/*12345*.
+  - Credentials (email & password): *admin_hotel@yahoo.com*/*12345*.
 
 # Web application screenshots 
 | <p align="center">**Home page**</p> | <p align="center">**About us page**</p> | <p align="center">**Contact us page**</p> |
