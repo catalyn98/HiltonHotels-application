@@ -120,7 +120,7 @@
                             <input type="hidden" name="generated_code" value="<?php echo $random_code; ?>"/>
                             <input type="submit" name="submit" class="btn btn-primary">
                             <?php
-                                $dbhost = 'localhost:3308';
+                                $dbhost = 'localhost';
                                 $dbuser = 'root';
                                 $dbpass = '';
                                 $db     = 'hotel';
